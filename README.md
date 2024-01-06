@@ -13,9 +13,18 @@ Para a instalação do Node.js, basta acessar a sua página de [:link:download](
 
 ## :package: Instalação de Dependências: **Express, Axios e Handlebars**
 para realizar a instalação do express vamos utilizar os comandos a seguir para cada dependência separadamente;
+
+**Express:**
 ```
 npm install express;
+```
+**axios:**
+```
 npm install axios;
+```
+
+**Handlebars:**
+```
 npm install handlebars;
 ```
 
