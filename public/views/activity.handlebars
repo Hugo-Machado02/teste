@@ -1,0 +1,27 @@
+<section class="bodyAtividade">
+  <div class="cardAtividade">
+    <div class="headerAtividade">
+      <p class="card-text"><span class="badge bg-light text-dark">{{ view.id }}</span></p>
+      <p class="card-text"><span class="badge bg-warning text-dark">{{ view.tipo }}</span></p>
+    </div>
+    <div class="contentAtividade">
+      <h4>{{ view.atividade }}</h4>
+      <p class="card-text pPar"><span class="material-symbols-outlined">
+          groups
+        </span> Participantes: {{ view.participantes }}</p>
+      <p class="card-text pPar"><span class="material-symbols-outlined">
+          accessibility
+        </span>Acessibilidade: {{ view.acessibilidade }}</p>
+    </div>
+    <div class="footerAtividade">
+      <a href="/" class="btn btn-secondary btnVoltar">Voltar</a>
+    </div>
+  </div>
+  <div class="console">
+    <pre id="jsonOutput"></pre>
+  </div>
+</section>
+<script>
+  const atividade = {{{ json }}};
+  document.getElementById("jsonOutput").innerHTML = JSON.stringify(atividade, null, 2);  
+</script>

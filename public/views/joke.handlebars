@@ -1,0 +1,28 @@
+<section class="bodyPiada">
+  <div class="cardPiada">
+    <div class="foto">
+      <img
+        src="https://thumbs.web.sapo.io/?W=2100&H=1050&delay_optim=1&epic=NDVhypvWHCoU+fjc+R/aSmAzq2MrDOt5vAzW3Gj7lVm1KuGxKDB4Vfy/tURp6Y6cP6fCGCq7Am9FMoslgvto2MVYuQerYIUmnVz6NBuPADHk69M=">
+    </div>
+    <div class="content">
+      <p class="created"><span class="material-symbols-outlined">
+          calendar_month
+        </span> Criado em: {{ view.data_criacao }}
+      </p>
+      <h5 class="piada">{{view.piada}}</h5>
+      <p class="by">by: <a href="https://api.chucknorris.io/">ChuckNorris.io</a></p>
+      <p class="updated"><span class="material-symbols-outlined">
+          calendar_month
+        </span> Atualizado em: {{ view.data_atualizacao }}</p>
+    </div>
+    <a href="/" class="btn btn-secondary btnVoltar">Voltar</a>
+  </div>
+
+  <div class="console">
+    <pre id="jsonOutput"></pre>
+  </div>
+</section>
+<script>
+  const chuck = {{{ json }}};
+  document.getElementById("jsonOutput").innerHTML = JSON.stringify(chuck, null, 2);  
+</script>
