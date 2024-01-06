@@ -56,11 +56,14 @@ npm install handlebars;
 - :package: package.json
 - :books: README.md
 
+***
 
 ## :rocket: Início da Aplicação Local
 
 Para dar início ao servidor execute o comando `npm start` e a aplicação então será iniciada na porta `8080`.
 Logo em Seguida acesse a URL :link: `http://localhost:8080` para ter acesso a execução da aplicação.
+
+***
 
 # :globe_with_meridians: início da Aplicação na AWS
 Este projeto foi ospedado nos servidores da `AWS`, por isso, acesse o link do IP, ou clique [:link:aqui](https://link.com)
@@ -70,6 +73,8 @@ Este projeto foi ospedado nos servidores da `AWS`, por isso, acesse o link do IP
 ## :bricks: Dificuldades 
 
 (A completar Ainda)
+
+***
 
 ## :wrench: Recursos Utilizados 
   [![My Skills](https://skillicons.dev/icons?i=vscode,html,css,js,nodejs,git,github)](https://skillicons.dev)
@@ -86,9 +91,7 @@ Ao entrar na aplicação, em sua Homepage aparecerão 2 opções de Botões que 
 
     <p align="center">
     <img src="/src/img/homepage.png"/>
-</p>
-
-        
+</p>  
 
 ## :zap: Acessando a pagina de piadas
 Ao Acessar o Botão `Quero ver uma piada`, a página será direcionada para outra contendo uma piada do Chuck Norris.
@@ -111,6 +114,7 @@ Ao Acessar o Botão `Quero ver uma piada`, a página será direcionada para outr
 - Autor 3
 - Autor 4
 
+***
 
 # :package: Dependências
 As dependências do projeto incluem:
