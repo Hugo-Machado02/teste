@@ -25,7 +25,7 @@ npm install handlebars;
 
 # :file_folder: Estruturação do Projeto
 
-- :file_folder: src
+:file_folder: src
   - :file_folder: controller
     - :page_facing_up: ActivityController.js
     - :page_facing_up: BaseController.js
@@ -50,10 +50,10 @@ npm install handlebars;
     - :arrows_clockwise: jokeRoute.js
   - :page_facing_up: app.js
   - :page_facing_up: config.js
-- :wrench: .gitignore
-- :package: package-lock.json
-- :package: package.json
-- :books: README.md
+:wrench: .gitignore
+:package: package-lock.json
+:package: package.json
+:books: README.md
 
 
 ## :rocket: Início da Aplicação Local
@@ -98,7 +98,7 @@ Ao Acessar o Botão `Quero ver uma piada`, a página será direcionada para outr
 ## :zap: Acessando a página de Atividades
 Ao Acessar o Botão `Quero ver uma piada`, a página será direcionada para outra contendo uma piada do Chuck Norris.
 <p align="center">
-    <img src="/src/img/piada.png"/>
+    <img src="/src/img/atividade.png"/>
 </p>
 
 ***
