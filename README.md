@@ -25,7 +25,7 @@ npm install handlebars;
 
 # :file_folder: Estruturação do Projeto
 
-:file_folder: src
+- :file_folder: src
   - :file_folder: controller
     - :page_facing_up: ActivityController.js
     - :page_facing_up: BaseController.js
@@ -39,7 +39,7 @@ npm install handlebars;
       - :lipstick: style.css
     - :file_folder: view
       - :file_folder: view
-        - :page_facing_up: layout.handlebars
+        -:page_facing_up: layout.handlebars
       - :page_facing_up: activity.handlebars
       - :page_facing_up: error.handlebars
       - :page_facing_up: index.handlebars
@@ -51,10 +51,10 @@ npm install handlebars;
   - :page_facing_up: app.js
   - :page_facing_up: config.js
 
-:wrench: .gitignore
-:package: package-lock.json
-:package: package.json
-:books: README.md
+- :wrench: .gitignore
+- :package: package-lock.json
+- :package: package.json
+- :books: README.md
 
 
 ## :rocket: Início da Aplicação Local
