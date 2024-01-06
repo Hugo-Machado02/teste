@@ -39,7 +39,7 @@ npm install handlebars;
       - :lipstick: style.css
     - :file_folder: view
       - :file_folder: view
-        - -:page_facing_up: layout.handlebars
+        -- :page_facing_up: layout.handlebars
       - :page_facing_up: activity.handlebars
       - :page_facing_up: error.handlebars
       - :page_facing_up: index.handlebars
